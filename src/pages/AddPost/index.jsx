@@ -108,7 +108,7 @@ export const AddPost = () => {
         size="large"
         onClick={() => inputFileRef.current.click()}
       >
-        Загрузить превью
+        Upload preview
       </Button>
       <input
         ref={inputFileRef}
@@ -123,7 +123,7 @@ export const AddPost = () => {
             color="error"
             onClick={onClickRemoveImage}
           >
-            Удалить
+            Remove
           </Button>
           <img
             className={styles.image}
