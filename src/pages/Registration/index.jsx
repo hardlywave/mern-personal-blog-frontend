@@ -2,11 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import {
-  fetchAuth,
-  fetchRegister,
-  selectIsAuth,
-} from "../../redux/slices/auth";
+import { fetchRegister, selectIsAuth } from "../../redux/slices/auth";
 
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
